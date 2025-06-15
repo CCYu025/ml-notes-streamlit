@@ -238,7 +238,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/03/01.PNG", use_container_width=True)
+st.image("pages/03/01.png", use_container_width=True)
 
 st.markdown("""
 ## 以邏輯斯迴歸對類別機率塑模
@@ -280,7 +280,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/03/02.PNG", use_container_width=True)
+st.image("pages/03/02.png", use_container_width=True)
 
 st.markdown("""
 ### 學習邏輯斯成本函數的加權
@@ -321,7 +321,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/03/03.PNG", use_container_width=True)
+st.image("pages/03/03.png", use_container_width=True)
 
 st.markdown("""
 ### 將 Adaline 實作轉換為邏輯斯迴歸演算法
@@ -485,7 +485,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/03/04.PNG", use_container_width=True)
+st.image("pages/03/04.png", use_container_width=True)
 
 st.markdown("""
 ### 使用 scikit-learn 訓練一個邏輯斯迴歸模型
@@ -520,7 +520,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/03/05.PNG", use_container_width=True)
+st.image("pages/03/05.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -544,7 +544,7 @@ print("單筆樣本預測：", lr.predict(X_test_std[0, :].reshape(1, -1)))
 ```
 """)
 
-st.image("pages/03/06.PNG", use_container_width=True)
+st.image("pages/03/06.png", use_container_width=True)
 
 st.markdown("""
 ### 以正規化處理過度適合現象
@@ -581,7 +581,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/03/07.PNG", use_container_width=True)
+st.image("pages/03/07.png", use_container_width=True)
 
 st.markdown("""
 - 隨著 C 變大，正則化效果減弱，權重會變得較大；
@@ -643,7 +643,7 @@ plt.show()
 - `C=1.0`：控制軟邊界違約懲罰強度。
 """)
 
-st.image("pages/03/08.PNG", use_container_width=True)
+st.image("pages/03/08.png", use_container_width=True)
 
 st.markdown("""
 ### 其他 SVM 的實作方式
@@ -705,7 +705,7 @@ plt.show()
 XOR 資料在原始特徵空間顯然無法用一條線性分隔，但在高維空間（經過適合的映射）可以線性可分。
 """)
 
-st.image("pages/03/09.PNG", use_container_width=True)
+st.image("pages/03/09.png", use_container_width=True)
 
 st.markdown("""
 ### 使用 RBF 核支援向量機分離 XOR 資料集
@@ -734,7 +734,7 @@ plt.show()
 - `C=10.0`：軟邊界違約懲罰。
 """)
 
-st.image("pages/03/10.PNG", use_container_width=True)
+st.image("pages/03/10.png", use_container_width=True)
 
 st.markdown("""
 ### RBF 核在鳶尾花資料集上的效果
@@ -762,7 +762,7 @@ plt.show()
 - 透過 RBF 核，可在二維特徵空間上畫出「非線性」的分隔邊界。
 """)
 
-st.image("pages/03/11.PNG", use_container_width=True)
+st.image("pages/03/11.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -788,7 +788,7 @@ plt.show()
 - 當 `gamma` 值非常大時，RBF 核會把每個訓練點都當作「非常窄的高斯球」，使得決策邊界極度貼合訓練資料，容易**過度擬合**，在未見過的資料上泛化誤差反而變高。
 """)
 
-st.image("pages/03/12.PNG", use_container_width=True)
+st.image("pages/03/12.png", use_container_width=True)
 
 st.markdown("""
 ### 小結
@@ -870,7 +870,7 @@ plt.show()
     - Misclassification Error 用於剪枝時作為簡化指標
 """)
 
-st.image("pages/03/13.PNG", use_container_width=True)
+st.image("pages/03/13.png", use_container_width=True)
 
 st.markdown("""
 ## 建構決策樹
@@ -920,7 +920,7 @@ plt.show()
 - 如果不設定 `max_depth`，樹會繼續往下分裂直到所有葉子節點是純淨或達到其他停止條件
 """)
 
-st.image("pages/03/14.PNG", use_container_width=True)
+st.image("pages/03/14.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -937,7 +937,7 @@ plt.show()
 - 若想要更精美或自訂節點格式，建議用 Graphviz
 """)
 
-st.image("pages/03/15.PNG", use_container_width=True)
+st.image("pages/03/15.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -965,7 +965,7 @@ graph.write_png('tree.png')  # 預設儲存在使用者目錄下（依工作目�
 - 如果需要調整儲存路徑，可直接在 `write_png()` 指定絕對或相對路徑
 """)
 
-st.image("pages/03/16.PNG", use_container_width=True)
+st.image("pages/03/16.png", use_container_width=True)
 
 st.markdown("""
 ### 小結
@@ -1018,7 +1018,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/03/17.PNG", use_container_width=True)
+st.image("pages/03/17.png", use_container_width=True)
 
 st.markdown("""
 ## k 最近鄰 — 惰式學習演算法
@@ -1055,7 +1055,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/03/18.PNG", use_container_width=True)
+st.image("pages/03/18.png", use_container_width=True)
 
 st.markdown("""
 ## 第三章小結

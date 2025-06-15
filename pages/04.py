@@ -44,7 +44,7 @@ df
 ```
 """)
 
-st.image("pages/04/01.PNG", use_container_width=True)
+st.image("pages/04/01.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -57,7 +57,7 @@ df.isnull().sum()
 ```
 """)
 
-st.image("pages/04/02.PNG", use_container_width=True)
+st.image("pages/04/02.png", use_container_width=True)
 
 st.markdown("""
 ## 刪除具有遺漏值的樣本或特徵
@@ -83,7 +83,7 @@ df.dropna(axis=1)
 ```
 """)
 
-st.image("pages/04/03.PNG", use_container_width=True)
+st.image("pages/04/03.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -102,9 +102,9 @@ df.dropna(subset=['C'])
 ```
 """)
 
-st.image("pages/04/04.PNG", use_container_width=True)
-st.image("pages/04/05.PNG", use_container_width=True)
-st.image("pages/04/06.PNG", use_container_width=True)
+st.image("pages/04/04.png", use_container_width=True)
+st.image("pages/04/05.png", use_container_width=True)
+st.image("pages/04/06.png", use_container_width=True)
 st.markdown("""
 ## 填補遺漏值
 
@@ -127,7 +127,7 @@ imputed_data
 ```
 """)
 
-st.image("pages/04/07.PNG", use_container_width=True)
+st.image("pages/04/07.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -138,7 +138,7 @@ df.fillna(df.mean())
 ```
 """)
 
-st.image("pages/04/08.PNG", use_container_width=True)
+st.image("pages/04/08.png", use_container_width=True)
 
 st.markdown("""
 **提示**：在 Pipeline 中，`SimpleImputer` 屬於 Transformer，可與其他步驟串接。
@@ -181,7 +181,7 @@ df
 ```
 """)
 
-st.image("pages/04/09.PNG", use_container_width=True)
+st.image("pages/04/09.png", use_container_width=True)
 
 st.markdown("""
 ## 對應有序特徵
@@ -199,7 +199,7 @@ df
 ```
 """)
 
-st.image("pages/04/10.PNG", use_container_width=True)
+st.image("pages/04/10.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -211,7 +211,7 @@ df['size'].map(inv_size_mapping)
 ```
 """)
 
-st.image("pages/04/11.PNG", use_container_width=True)
+st.image("pages/04/11.png", use_container_width=True)
 
 st.markdown("""
 ## 類別標籤編碼(Label Encoding)
@@ -236,7 +236,7 @@ df
 ```
 """)
 
-st.image("pages/04/12.PNG", use_container_width=True)
+st.image("pages/04/12.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -249,7 +249,7 @@ df
 ```
 """)
 
-st.image("pages/04/13.PNG", use_container_width=True)
+st.image("pages/04/13.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -288,7 +288,7 @@ X
 ```
 """)
 
-st.image("pages/04/14.PNG", use_container_width=True)
+st.image("pages/04/14.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -304,7 +304,7 @@ color_ohe.fit_transform(X[:, 0].reshape(-1, 1)).toarray()
 ```
 """)
 
-st.image("pages/04/15.PNG", use_container_width=True)
+st.image("pages/04/15.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -331,7 +331,7 @@ pd.get_dummies(df[['price', 'color', 'size']])
 ```
 """)
 
-st.image("pages/04/16.PNG", use_container_width=True)
+st.image("pages/04/16.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -343,7 +343,7 @@ pd.get_dummies(df[['price', 'color', 'size']],
 ```
 """)
 
-st.image("pages/04/17.PNG", use_container_width=True)
+st.image("pages/04/17.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -360,7 +360,7 @@ c_transf.fit_transform(X).astype(float)
 ```
 """)
 
-st.image("pages/04/18.PNG", use_container_width=True)
+st.image("pages/04/18.png", use_container_width=True)
 
 st.markdown("""
 ## 小結
@@ -404,7 +404,7 @@ df_wine.head()
 
 """)
 
-st.image("pages/04/19.PNG", use_container_width=True)
+st.image("pages/04/19.png", use_container_width=True)
 
 
 st.markdown("""
@@ -460,7 +460,7 @@ print('normalized:', (ex - ex.min()) / (ex.max() - ex.min()))
 ```
 """)
 
-st.image("pages/04/20.PNG", use_container_width=True)
+st.image("pages/04/20.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -522,7 +522,7 @@ print('Test accuracy:', lr.score(X_test_std, y_test))
 ```
 """)
 
-st.image("pages/04/21.PNG", use_container_width=True)
+st.image("pages/04/21.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -534,7 +534,7 @@ lr.intercept_
 ```
 """)
 
-st.image("pages/04/22.PNG", use_container_width=True)
+st.image("pages/04/22.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -588,7 +588,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/04/23.PNG", use_container_width=True)
+st.image("pages/04/23.png", use_container_width=True)
 
 st.markdown("""
 ## 循序特徵選擇演算法
@@ -687,7 +687,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/04/24.PNG", use_container_width=True)
+st.image("pages/04/24.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -699,7 +699,7 @@ print(df_wine.columns[1:][k3])
 ```
 """)
 
-st.image("pages/04/25.PNG", use_container_width=True)
+st.image("pages/04/25.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -713,7 +713,7 @@ print('Test accuracy:', knn.score(X_test_std, y_test))
 ```
 """)
 
-st.image("pages/04/26.PNG", use_container_width=True)
+st.image("pages/04/26.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -729,7 +729,7 @@ print('Test accuracy:',
 ```
 """)
 
-st.image("pages/04/27.PNG", use_container_width=True)
+st.image("pages/04/27.png", use_container_width=True)
 
 st.markdown("""
 # 以隨機森林評估特徵的重要性
@@ -764,8 +764,8 @@ plt.show()
 ```
 """)
 
-st.image("pages/04/28.PNG", use_container_width=True)
-st.image("pages/04/29.PNG", use_container_width=True)
+st.image("pages/04/28.png", use_container_width=True)
+st.image("pages/04/29.png", use_container_width=True)
 
 st.markdown("""
 ```python
@@ -786,7 +786,7 @@ for f in range(X_selected.shape[1]):
 ```
 """)
 
-st.image("pages/04/30.PNG", use_container_width=True)
+st.image("pages/04/30.png", use_container_width=True)
 
 st.markdown("""
 ## 小結
