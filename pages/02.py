@@ -111,7 +111,7 @@ X = df.iloc[0:100, [0, 2]].values
 
 """)
 
-st.image("pages/02/00.PNG", use_container_width=True)
+st.image("pages/02/00.png", use_container_width=True)
 
 st.markdown("""
 ### 3. 散點圖視覺化
@@ -140,7 +140,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/02/01.PNG", use_container_width=True)
+st.image("pages/02/01.png", use_container_width=True)
 
 st.markdown("""
 ### 4. 訓練感知器並觀察學習曲線
@@ -166,7 +166,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/02/02.PNG", use_container_width=True)
+st.image("pages/02/02.png", use_container_width=True)
 
 st.markdown("""
 ### 5. 決策區域視覺化
@@ -226,7 +226,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/02/03.PNG", use_container_width=True)
+st.image("pages/02/03.png", use_container_width=True)
 
 st.markdown("""
 ---
@@ -358,7 +358,7 @@ plt.show()
 ```
 """)
 
-st.image("pages/02/04.PNG", use_container_width=True)
+st.image("pages/02/04.png", use_container_width=True)
 
 st.markdown("""
 ### 特徵縮放 (Feature Scaling)
@@ -399,8 +399,8 @@ plt.show()
 >
 """)
 
-st.image("pages/02/05.PNG", use_container_width=True)
-st.image("pages/02/06.PNG", use_container_width=True)
+st.image("pages/02/05.png", use_container_width=True)
+st.image("pages/02/06.png", use_container_width=True)
 
 st.markdown("""
 ## 隨機梯度下降 (Stochastic Gradient Descent)
@@ -513,8 +513,8 @@ plt.show()
 >
 """)
 
-st.image("pages/02/07.PNG", use_container_width=True)
-st.image("pages/02/08.PNG", use_container_width=True)
+st.image("pages/02/07.png", use_container_width=True)
+st.image("pages/02/08.png", use_container_width=True)
 
 st.markdown("""
 ## 小結
