@@ -40,6 +40,5 @@ st.markdown("""
 
 """)
 
+st.image("pages/05/01.png", use_container_width=True)
 
-# Image
-st.image("pages/04/01.PNG", use_container_width=True)
